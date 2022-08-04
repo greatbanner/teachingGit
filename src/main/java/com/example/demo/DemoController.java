@@ -12,6 +12,9 @@ public class DemoController {
     @GetMapping("/hello")
     public String sayHello(@RequestParam String name) {
         System.out.println("Saludando a " + name);
+        System.out.println("Despiendo a " + name);
         return "hello " + name;
+
+
     }
 }
