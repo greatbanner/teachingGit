@@ -14,7 +14,5 @@ public class DemoController {
         System.out.println("Saludando a " + name);
         System.out.println("Despiendo a " + name);
         return "hello " + name;
-
-
     }
 }
